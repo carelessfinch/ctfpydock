@@ -1,5 +1,5 @@
 # ctfpydock
 Docker files for hosting all python challenges
 
-#Usage
+# Usage
 Run build.sh
