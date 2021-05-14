@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:20.04
 RUN apt-get -q -y update && \
     apt-get -q -y install \
     python3-dev \
