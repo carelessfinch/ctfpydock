@@ -1,11 +1,11 @@
 # ctfpydock
-Docker files for hosting all python challenges
+Docker files for hosting all python challenges.
 
 # Usage
-Add challenge files to files directory
+Add challenge files to files directory.
 
-Modify Dockerfile with necessory modules
+Add necessary modules to ``requirements.txt``.
 
-Run build.sh
+Run ``docker build -t pydock .`` to build the container.
 
-Run start.sh
+Run ``docker run -d -it -p 1337:1337 pydock`` to run the container.
